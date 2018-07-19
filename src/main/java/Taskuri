@@ -1,0 +1,17 @@
+5. git init
+6. git add . (adauga tot in staging area)
+7. git commit -m "First commit" (primul commit)
+12. Prefer sa lucrez cu maven din linia de comanda : mvn clean compile
+13. mvn clean test
+14. mvn clean package
+15. mvn clean install
+16. Diferente:
+compile - compileaza codul sursa, nu face jar-ul.
+test - compileaza codul sursa si ruleaza testele. tot fara jar. Are in plus si test-classes
+package - compileaza codul, ruleaza testele impacheteaza proiectul ca un jar
+install - compileaza codul, ruleaza testele impacheteaza proiectul ca un jar. Pune acel jar in local repository si poate fi folosit de alte proiecte.
+17. git checkout -b feature1 ( checkout schimba branch, -b branch nou)
+18. git status
+20. pom.properties are modificata versiunea, e alta versiune la jar.
+22. apare errorSize in consola, si faptul ca a facut fork pentru analiza. In target apare xml-ul.
+23. Eroare. Rendundant nullcheck
